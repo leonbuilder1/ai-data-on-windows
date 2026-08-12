@@ -1,0 +1,6 @@
+---
+description: Safe execution rules for Windows AI data-drive migration
+alwaysApply: true
+---
+
+Read `AGENTS.md` and `docs/SAFETY_MODEL.md` before suggesting a command. Start only with audit mode. Do not add `-Execute`, delete a pre-move directory, move MSIX/AppX folders, or change an unlisted path unless the computer owner explicitly approves the displayed plan and a rollback receipt exists.

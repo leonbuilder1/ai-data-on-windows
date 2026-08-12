@@ -1,0 +1,23 @@
+# User data and runtime outputs
+AIData/
+Reports/
+*.log
+move-receipt.json
+move-failure.json
+cleanup-complete.json
+
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+
+# Local engineering notes; retain only the empty directory marker.
+.learnings/*.md
+!.learnings/.gitkeep
+
+# PowerShell/editor state
+.vs/
+.vscode/
+*.user
