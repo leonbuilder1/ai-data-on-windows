@@ -4,8 +4,6 @@
 
 适用对象：Codex、Claude Code、Cursor。项目以 Windows PowerShell 7 为运行环境，所有脚本默认只审计；只有加上 `-Execute` 才会改动电脑。
 
-> 本项目不上传、打印或提交认证令牌、会话内容、设置、项目文件或迁移报告。不要把 `D:\AIData`、迁移回执或应用目录提交到 Git。
-
 ## 目标与边界
 
 默认数据根是 `D:\AIData`，可改为任何健康的 NTFS 数据盘路径。项目采用：
